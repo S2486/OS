@@ -26,4 +26,4 @@ DiskReadErrorString:
 DiskReadFailed:
     mov bx, DiskReadErrorString
     call Print
-    jmp $
+    ;jmp $
